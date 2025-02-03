@@ -26,6 +26,16 @@ function Header() {
                   Mode
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/todo"
+                  className={
+                    "px-4 py-2 rounded-md bg-black dark:bg-white text-white dark:text-black"
+                  }
+                >
+                  Todo
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>
