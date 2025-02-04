@@ -16,10 +16,6 @@ function Todo() {
     <>
       <Header />
       <div className="p-4 max-w-md mx-auto bg-white dark:bg-black shadow-md rounded-lg">
-        <h2 className="text-xl font-semibold mb-4 dark:text-white">
-          Todo Ro'yxati
-        </h2>
-
         <div className="flex gap-2 mb-4">
           <input
             type="text"

@@ -36,6 +36,16 @@ function Header() {
                   Todo
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/cart"
+                  className={
+                    "px-4 py-2 rounded-md bg-black dark:bg-white text-white dark:text-black"
+                  }
+                >
+                  Cart
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>
